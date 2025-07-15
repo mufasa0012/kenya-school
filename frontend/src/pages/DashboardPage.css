@@ -1,0 +1,141 @@
+/* General Styles */
+.dashboard-container {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(to right, #2196f3, #1976d2);
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.kpis-section {
+  margin-top: 2rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+}
+
+.feature-card h3 {
+  color: #2196f3;
+  margin-top: 0;
+}
+
+.feature-card p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.feature-card button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.feature-card button:hover {
+  background-color: #1565c0;
+}
+
+.kpi-cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.kpi-card {
+  width: calc(25% - 1.5rem);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.kpi-card:hover {
+  transform: translateY(-4px);
+}
+
+.kpi-card h3 {
+  margin-top: 0;
+}
+
+.kpi-value {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.recent-activities,
+.quick-actions {
+  margin-top: 2rem;
+}
+
+.recent-activities ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.recent-activities li {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.recent-activities span {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.recent-activities strong {
+  font-size: 1rem;
+}
+
+.recent-activities small {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.quick-actions .action-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.quick-actions button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quick-actions button:hover {
+  background-color: #1565c0;
+}
